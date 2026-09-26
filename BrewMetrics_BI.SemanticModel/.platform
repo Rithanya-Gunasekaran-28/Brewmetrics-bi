@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "BrewMetrics_BI"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "2d903d18-a911-4d03-ba8a-6684bff7cca6"
+  }
+}
