@@ -1,0 +1,11 @@
+# Reflection
+
+Working on the BrewMetrics BI project gave me a better understanding of how Power BI, GitHub, and GitHub Copilot can be used together in a real BI development workflow. Earlier, I mostly viewed a Power BI project as a dashboard that only needed to be completed and submitted. In this project, I understood that the development process is also important and should be organized, traceable, and properly documented.
+
+GitHub Copilot was useful while developing the DAX measures. It helped me understand the basic structure and syntax required for measures such as Month-over-Month Growth, Running Total, City Sales Rank using RANKX, and Average Sales per Quantity. The suggestions gave me a starting point and reduced the time required to write the initial DAX expressions. It was especially useful when I was unsure about functions and the correct structure of a calculation.
+
+At the same time, I learned that Copilot suggestions should not be accepted without checking them. Some suggestions needed to be reviewed and corrected according to my actual table names, columns, relationships, and project requirements. I had to test the measures in Power BI and make changes when the suggested logic did not completely match my data model. This helped me understand that Copilot is an assisting tool rather than a replacement for understanding the logic behind the code.
+
+Maintaining the Git commit history also changed my approach to the project. Instead of completing everything first and saving it as one final version, I had to think about the project as a sequence of stages. The star schema, DAX measures, dashboard, and documentation were developed as separate parts. Making commits during the development process made it easier to track changes and understand how the project evolved. It also made me more careful about what I changed because each stage became part of the project's history.
+
+Overall, this project helped me improve not only my Power BI and DAX skills, but also my understanding of AI-assisted development, documentation, and version control. I learned that using Copilot effectively requires human checking and understanding, while Git provides a clear record of how a BI solution is developed.
